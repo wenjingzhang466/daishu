@@ -1,0 +1,13 @@
+# C:\xampp\apache\conf\extra\httpd-vhosts.conf
+
+
+
+<VirtualHost *:80>    
+	DocumentRoot "C:\xampp\htdocs"    
+	ServerName localhost
+</VirtualHost>
+
+<VirtualHost *:80>    
+	DocumentRoot "C:\xampp\htdocs\ego\public"    
+	ServerName e.cn
+</VirtualHost>
